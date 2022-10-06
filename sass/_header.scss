@@ -1,0 +1,21 @@
+.container-fluid {
+    .navbar-brand {
+        h1 {
+            font: bolder;
+            color: $colorFD_black;
+            font-size: 20pt;
+            font-weight: 660;   
+        }
+    }
+    ul {
+        display: flex;
+        gap: 30px;
+
+        .nav-item {
+            a {
+                font-size: 11.5pt;
+                font-weight: 660;
+            }
+        }
+    }
+}

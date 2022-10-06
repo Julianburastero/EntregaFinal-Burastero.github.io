@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hik.</title>
+    <meta name="description" content="Esto es una tienda online dedicada a la venta de zapatillas y otros articulos deportivos">
+    <meta name="keywords" content="Compra, zapatillas, deportivas, deportes, futbol, pelota">
     <link rel="stylesheet" href="./style/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./sass/main.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
@@ -18,13 +22,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                <a class="nav-link active" href="#">Mujeres</a>
+                <a class="nav-link active" href="./html/mujeres.html">Mujeres</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" href="#">Hombres</a>
+                <a class="nav-link active" href="./html/hombres.html">Hombres</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" href="#">Niños</a>
+                <a class="nav-link active" href="./html/niños.html">Niños</a>
                 </li>
                 </li>
                 <li class="nav-item">
@@ -32,17 +36,18 @@
                 </li>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" href="#">Locales</a>
+                <a class="nav-link active" href="./html/locales.html">Locales</a>
                 </li>
             </ul>
             </div>
         </div>
-        </nav>
+        </nav> 
         <div class="contenedor">
             <video class="contenedor__video"autoplay muted loop playsinline>
                 <source src="./videos/pexels-koolshooters-8533110 (online-video-cutter.com).mp4"/>
             </video>
         </div>
+        <section>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -65,43 +70,44 @@
                     <span class="visually-hidden">Next</span>
                 </button>
                 </div>
-                <main>
-                    <div class="Generos">
-                        <div class="Generos__Mujeres">
-                            <h2>Mujeres</h2>
-                            <img src="./img/Mujeres.webp" alt="mujeres">
-                    </div>
-                    <div class="Generos__Hombres">
-                        <h2>Hombres</h2>
-                        <img src="./img/Hombres.webp" alt="hombres">
-                    </div>
-                    <div class="Generos__Niños">
-                        <h2>Niños</h2>
-                        <img src="./img/Niños.webp" alt="Niños">
-                    </div>
-                    </div>
-                </main>
-                <article>   
-                <div class="historia">
-                        <div class="historia__contenedor">
-                            <h3>Historia de la marca</h3>
-                            <p>Exercitation consequat magna consequat consequat Lorem aute veniam fugiat mollit mollit ut duis commodo.Ea laborum amet minim qui nostrud enim esse.Officia veniam anim cillum amet aute labore proident irure sint anim.Excepteur aliquip id culpa labore enim in culpa id voluptate aute est reprehenderit voluptate consectetur.Fugiat Lorem cupidatat ex nulla.Quis laboris nostrud fugiat nostrud Lorem commodo adipisicing amet</p>
-                        </div>
-                        <div class="historia__contenedor">
-                            <h3>Sobre nosotros</h3>
-                            <p>Exercitation consequat magna consequat consequat Lorem aute veniam fugiat mollit mollit ut duis commodo.Ea laborum amet minim qui nostrud enim esse.Officia veniam anim cillum amet aute labore proident irure sint anim.Excepteur aliquip id culpa labore enim in culpa id voluptate aute est reprehenderit voluptate consectetur.Fugiat Lorem cupidatat ex nulla.Quis laboris nostrud fugiat nostrud Lorem commodo adipisicing amet</p>
-                        </div>
-                    </div>
-                </article> 
-                <footer id="footer">
-                    <ul class="footer__icons">
-                        <li><a target="_blank" href="https://instagram.com"><img class="icon" src="./img/ig.jpg" alt="Instagramlogo"></a></li>
-                        <li><a target="_blank" href="https://www.facebook.com"><img class="icon" src="./img/Facebooklogo.png" alt="Facebooklogo"></a></li>
-                        <li><a target="_blank" href="https://www.twitter.com"><img class="icon" src="./img/twitter.jpg" alt="twitterlogo"></a></li>
-                        <li><a target="_blank" href="https://www.gmail.com"><img class="icon" src="./img/mail.jpg" alt=""></a></li>
-                    </ul>
-                    <p> © Copyright - 2022 </p>
-                </footer>
+        </section>
+        <main>
+            <div class="Generos">
+                <div class="Generos__Mujeres">
+                    <h2>Mujeres</h2>
+                    <img src="./img/Mujeres.webp" alt="mujeres">
+                </div>
+                <div class="Generos__Hombres">
+                    <h2>Hombres</h2>
+                    <img src="./img/Hombres.webp" alt="hombres">
+                </div>
+                <div class="Generos__Niños">
+                    <h2>Niños</h2>
+                    <img src="./img/Niños.webp" alt="Niños">
+                </div>
+            </div>
+        </main>
+        <article>   
+            <div class="historia">
+                <div class="historia__contenedor">
+                    <h3>Historia de la marca</h3>
+                    <p>Exercitation consequat magna consequat consequat Lorem aute veniam fugiat mollit mollit ut duis commodo.Ea laborum amet minim qui nostrud enim esse.Officia veniam anim cillum amet aute labore proident irure sint anim.Excepteur aliquip id culpa labore enim in culpa id voluptate aute est reprehenderit voluptate consectetur.Fugiat Lorem cupidatat ex nulla.Quis laboris nostrud fugiat nostrud Lorem commodo adipisicing amet</p>
+                </div>
+                <div class="historia__contenedor">
+                    <h3>Sobre nosotros</h3>
+                    <p>Exercitation consequat magna consequat consequat Lorem aute veniam fugiat mollit mollit ut duis commodo.Ea laborum amet minim qui nostrud enim esse.Officia veniam anim cillum amet aute labore proident irure sint anim.Excepteur aliquip id culpa labore enim in culpa id voluptate aute est reprehenderit voluptate consectetur.Fugiat Lorem cupidatat ex nulla.Quis laboris nostrud fugiat nostrud Lorem commodo adipisicing amet</p>
+                </div>
+            </div>
+        </article> 
+        <footer id="footer">
+            <ul class="footer__icons">
+                <li><a target="_blank" href="https://instagram.com"><img class="icon" src="./img/ig.jpg" alt="Instagramlogo"></a></li>
+                <li><a target="_blank" href="https://www.facebook.com"><img class="icon" src="./img/Facebooklogo.png" alt="Facebooklogo"></a></li>
+                <li><a target="_blank" href="https://www.twitter.com"><img class="icon" src="./img/twitter.jpg" alt="twitterlogo"></a></li>
+                <li><a target="_blank" href="https://www.gmail.com"><img class="icon" src="./img/mail.jpg" alt=""></a></li>
+            </ul>
+            <p> © Copyright - 2022 </p>
+        </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,37 @@
+.locales {
+    font-size: 18pt;
+    text-align: center;
+    margin: 10% 0% 10% 0%;
+    font-weight: bold;
+}
+
+.localesubicacion {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 50%;
+}
+.conteinerMartinez  {
+    display: flex; 
+    gap: 10px;
+}
+
+.conteinerEscobar {
+    display: flex;
+}
+
+.mapa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0% 0% 10% 0%;
+
+    iframe {
+        width: 80%;
+    }
+}
+
+.localesubicacion {
+    margin-bottom: 100px;
+}
