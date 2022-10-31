@@ -18,15 +18,13 @@
     }
 }
 
-.tituloContactanos {
-    font-weight: 660;
+.contacto {
+    font-weight: bold;
     text-align: center;
-    margin-top: 30px;
-    animation: saltar 1s infinite;
-    display:inline-block;
-    transform: translatey(0);
-    animation-timing-function: ease-in;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
+
 .contenedor__form {
     background-color: $colorFDRecuadro;
 

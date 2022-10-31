@@ -1,37 +1,28 @@
 .locales {
-    font-size: 18pt;
+    font-size: 1.9rem;
     text-align: center;
-    margin: 10% 0% 10% 0%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     font-weight: bold;
-}
-
-.localesubicacion {
-    display: flex; 
-    align-items: center;
+  }
+  
+  .ubicacion {
+    display: flex;
+    text-align: center;
+    align-content: center;
     justify-content: center;
-    gap: 50%;
-}
-.conteinerMartinez  {
-    display: flex; 
+    gap: 20rem;
+  }
+  
+  .conteinerMartinez {
+    display: flex;
     gap: 10px;
-}
-
-.conteinerEscobar {
+  }
+  
+  .conteinerEscobar {
     display: flex;
-}
-
-.mapa {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: 0% 0% 10% 0%;
-
-    iframe {
-        width: 80%;
-    }
-}
-
-.localesubicacion {
+  }
+  
+  .localesubicacion {
     margin-bottom: 100px;
-}
+  }

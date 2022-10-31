@@ -42,29 +42,58 @@
             </div>
         </div>
         </nav>    
-    <div class="portadaContactoYLocales">
-        <img src="../img/Hombrecorriendo.jpg" alt="portadaContactoYLocales"> <!--Esta imagen planeo cambiarla -->
-        <p>Locales</p>
-    </div>
-    <h2 class="locales">Locales</h2>
-    <section class="localesubicacion">
-        <div class="ContenierMartinez">
-            <h3><strong>Martinez</strong></h3>
-            <p>Ubicación:</p>
-            <p>Atención:</p>
-            <p>Teléfono:</p>
-    </div> 
-    <div class="ConteinerEscobar">
-    <h3><strong>Escobar</strong></h3>
-        <p>Ubicación:</p>
-        <p>Atención:</p>
-        <p>Teléfono:</p>
-    </div>
-    </section>
-    <article class="mapa">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13516994.970894521!2d-72.49978627036192!3d-34.19626018914623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf5f5fdc667%3A0x3d2f77992af00fa8!2sArgentina!5e0!3m2!1ses-419!2sar!4v1662009872036!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </article>
-    <footer id="footer">
+        <div class="portadaContactoYLocales">
+            <img src="../img/CALZADO_RUNNING_1.png" alt="portadaContactoYLocales"> <!--Esta imagen planeo cambiarla -->
+            <p class="white">Locales</p>
+        </div>
+        <h2 class="locales">Locales</h2>
+        <section class="ubicacion">
+            <div class="ContenierMartinez">
+                <h3><strong>Martinez</strong></h3>
+                <p>Ubicación: Avenida de Mayo 769 </p>
+                <p>Atención:  8:00 - 20:00  </p>
+                <p>Teléfono: (+54) 1153929012  </p>
+            </div> 
+            <div class="ConteinerEscobar">
+                <h3><strong>Escobar</strong></h3>
+                <p>Ubicación: Paraná 3204 </p>
+                <p>Atención:  8:00 - 20:00  </p>
+                <p>Teléfono: (+54) 1173969432  </p>
+            </div>
+        </section>        
+        <main class="locales d-flex justify-content-center align-items-center">
+            <div class="col stores-accordion col-xl-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <i class="ph-map-pin"></i>
+                        Escobar
+                        </button>
+                        </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d52708.789667693796!2d-58.809993150622155!3d-34.3428586550714!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb61ad1ddf8915%3A0x70f239e49e8c37af!2sBel%C3%A9n%20de%20Escobar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1667193057392!5m2!1ses-419!2sar" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="ph-map-pin"></i>
+                        Martinez
+                        </button>
+                        </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26306.646051462114!2d-58 53129142467081!3d-34.49449809438496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb05662e4a08d%3A0x9811553c3a21048c!2sMart%C3%ADnez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1667193118858!5m2!1ses-419!2sar" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </main>
+        <footer id="footer">
         <ul class="footer__icons">
             <li>
             <a target="_blank" href="https://instagram.com"><img class="icon" src="../img/ig.jpg" alt="Instagramlogo"></a></li>
@@ -72,11 +101,16 @@
             <li><a target="_blank" href="https://www.twitter.com"><img class="icon" src="../img/twitter.jpg" alt="twitterlogo"></a></li>
             <li><a target="_blank" href="https://www.gmail.com"><img class="icon" src="../img/mail.jpg" alt=""></a></li>
         </ul>
-        <p> © Copyright - 2022 </p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <p> © Copyright Hik. - 2022 </p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
+
+
 
 
 

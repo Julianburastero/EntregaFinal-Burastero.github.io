@@ -1,4 +1,16 @@
 @charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F2EB;
+}
+
 .container-fluid .navbar-brand h1 {
   font: bolder;
   color: #181616;
@@ -26,12 +38,25 @@
 .Generos {
   display: flex;
   justify-content: space-around;
-  margin-top: 30px;
+  margin-top: 2.5rem;
   flex-direction: row;
 }
 
 .Generos img {
-  width: 250px;
+  width: 80%;
+  height: 80%;
+  margin-left: 3.2rem;
+  margin-top: 0.8rem;
+}
+
+.Generos img:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.Generos a {
+  text-decoration: none;
+  color: black;
 }
 
 .Generos h2 {
@@ -39,6 +64,13 @@
   font-size: 15pt;
   margin-bottom: 30px;
   font-weight: bolder;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.Generos h2:hover {
+  cursor: pointer;
+  color: rgb(88, 88, 88);
 }
 
 @media (max-width: 768px) {
@@ -50,26 +82,45 @@
     gap: 30px;
   }
 }
+
 .historia {
-  background-color: #b9ad8f;
+  background-color: #c5b795;
   display: flex;
-  margin-top: 30px;
+  margin-top: 6.5rem;
   gap: 30px;
   padding: 30px;
-  margin-bottom: 30px;
-}
-
-.historia h3 {
-  font-size: 15pt;
-  font-weight: 660;
-  text-align: center;
-}
-
-#footer {
-  background-color: #181616;
+  margin-bottom: 6rem;
   width: 100%;
   height: auto;
 }
+
+.historia h3 {
+  font-size: 2.5rem;
+  font-weight: 660;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.historia p {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+#footer {
+  background-color: #000000;
+  width: 100%;
+  height: 17rem;
+  margin-top: 6rem;
+}
+
+
+@media (max-width: 768px) {
+  #footer {
+    height: 50rem;
+  }
+}
+
+
 #footer .footer__icons {
   display: flex;
   align-items: center;
@@ -92,6 +143,7 @@
   height: 350px;
   position: relative;
 }
+
 .portadaContactoYLocales img {
   width: 100%;
   height: 100%;
@@ -106,21 +158,14 @@
   color: #181616;
 }
 
-.tituloContactanos {
-  font-weight: 660;
+.contacto {
+  font-weight: bold;
   text-align: center;
-  margin-top: 30px;
-  -webkit-animation: saltar 1s infinite;
-          animation: saltar 1s infinite;
-  display: inline-block;
-  transform: translatey(0);
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
-.contenedor__form {
-  background-color: #b9ad8f;
-}
+
 .contenedor__form .col-4 input:hover {
   border-color: #181616;
 }
@@ -146,48 +191,11 @@
   font-weight: bold;
 }
 
-.novedades__fotos {
-  display: flex;
-  margin: 10% 0% 10% 4%;
-}
-.novedades__fotos img {
-  width: 20%;
-  height: 20%;
-  margin-left: 3.3%;
-}
-.novedades__fotos img:hover {
-  border: solid 1px;
-  cursor: pointer;
-}
-
-.portada img {
-  width: 100%;
-  height: 350px;
-}
-
 .novedades__titulos {
   text-align: center;
   margin-top: 30px;
   font-size: 20pt;
   font-weight: bold;
-}
-
-.novedades__fotos {
-  display: flex;
-  margin: 10% 0% 10% 4%;
-}
-.novedades__fotos img {
-  width: 20%;
-  height: 20%;
-  margin-left: 3.3%;
-}
-.novedades__fotos img:hover {
-  border: solid 1px;
-  cursor: pointer;
-}
-
-.articulos {
-  width: 100%;
 }
 
 .articulos__titulos {
@@ -198,86 +206,7 @@
   font-weight: bold;
 }
 
-.articulos__uno {
-  display: flex;
-  margin: 10% 0 10% 4%;
-}
-.articulos__uno img {
-  width: 20%;
-  height: 20%;
-  margin-left: 3.3%;
-}
-
-.articulos__dos {
-  display: flex;
-  margin: 10% 0 10% 4%;
-}
-.articulos__dos img {
-  width: 20%;
-  height: 20%;
-  margin-left: 3.3%;
-}
-.articulos__dos img:hover {
-  cursor: pointer;
-  border: solid 1px;
-}
-
-@media (max-width: 768px) {
-  .historia {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media (max-width: 768px) {
-  .footer__icons {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media (max-width: 768px) {
-  .novedades__fotos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0%;
-  }
-  .novedades__fotos img {
-    width: 50%;
-    height: auto;
-    margin: 10% 0% 10% 0%;
-  }
-}
-@media (max-width: 768px) {
-  .articulos__uno {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0%;
-  }
-  .articulos__uno img {
-    width: 50%;
-    height: auto;
-    margin: 10% 0% 10% 0%;
-  }
-  img:hover {
-    cursor: pointer;
-    border: solid 1px;
-  }
-}
-@media (max-width: 768px) {
-  .articulos__dos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0%;
-  }
-  .articulos__dos img {
-    width: 50%;
-    height: auto;
-    margin: 10% 0% 10% 0%;
-  }
-}
-.conteinerNiños {
+.Niños {
   width: 100%;
   position: relative;
 }
@@ -295,17 +224,19 @@
 }
 
 .locales {
-  font-size: 18pt;
+  font-size: 1.9rem;
   text-align: center;
-  margin: 10% 0% 10% 0%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   font-weight: bold;
 }
 
-.localesubicacion {
+.ubicacion {
   display: flex;
-  align-items: center;
+  text-align: center;
+  align-content: center;
   justify-content: center;
-  gap: 50%;
+  gap: 20rem;
 }
 
 .conteinerMartinez {
@@ -317,28 +248,38 @@
   display: flex;
 }
 
-.mapa {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin: 0% 0% 10% 0%;
-}
-.mapa iframe {
-  width: 80%;
-}
-
 .localesubicacion {
   margin-bottom: 100px;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  font-family: sans-serif;
-  box-sizing: border-box;
+@media (max-width: 768px) {
+  .Generos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+  }
 }
 
-body {
-  background-color: #F5F2EB;
-}/*# sourceMappingURL=main.css.map */
+@media (max-width: 768px) {
+  .historia {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .footer__icons {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+  @media (max-width: 768px) {
+    #footer {
+    height: 50rem;
+    }
+  }
+  
+
+/*# sourceMappingURL=main.css.map */
